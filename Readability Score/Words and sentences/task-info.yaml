@@ -61,21 +61,6 @@ files:
         }
     }
   learner_created: false
-- name: src/readability/no.java
-  visible: true
-  text: |
-    package readability;
-
-    public class no {
-        public static void main(String[] args) {
-            String pattern = ".....\\\\";
-            System.out.println("a1b2c.".matches(pattern)); // true
-            System.out.println("Hello.".matches(pattern)); // true
-            System.out.println("Hello\\".matches(pattern)); // false, ! does not  match \\.
-
-        }
-    }
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/39/stages/206/implement
-status: Unchecked
+status: Solved
 record: -1
