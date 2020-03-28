@@ -354,6 +354,9 @@ files:
         }
     }
   learner_created: false
+- name: src/readability/TextReadability.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/39/stages/208/implement
-status: Unchecked
+status: Solved
 record: -1
